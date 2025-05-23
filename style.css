@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #eaeaea;
+}
+
+h1 {
+    color: #222;
+}
+
+.box {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #444;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 90px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #fff;
+    color: #111;
+}
+
+#msg {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #111;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222;
+}
+.winner {
+    background-color: #ffcccc;
+    color: #b30000;
+}
